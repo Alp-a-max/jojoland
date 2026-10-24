@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="JoJo's Bizarre Adventure evrenindeki Stand'ler için manga estetiğinde hazırlanmış Türkçe görsel galeri.">
+  <meta name="theme-color" content="#f7f4ee" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d0d0f" media="(prefers-color-scheme: dark)">
+  <meta property="og:title" content="JoJo's Bizarre Gallery">
+  <meta property="og:description" content="JoJo evreninden Stand profilleri, yetenekler ve parametre grafikleri.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/jojosite.html">
+  <meta property="og:image" content="https://example.com/images/hero-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://example.com/jojosite.html">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2317151a'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='%23d4af37' font-size='30' font-family='sans-serif' font-weight='bold'%3EJ%3C/text%3E%3C/svg%3E">
+  <title>JoJo's Bizarre Gallery</title>
+  <script>
+    try {
+      const savedTheme = localStorage.getItem('jojo-gallery-theme');
+      if (savedTheme === 'light' || savedTheme === 'dark') {
+        document.documentElement.dataset.theme = savedTheme;
+      }
+    } catch (error) {
+      // Depolama engelliyse tema sistem tercihinden alınır.
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Shippori+Mincho+B1:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#gallery">İçeriğe geç</a>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <nav class="site-nav" aria-label="Ana gezinme">
+    <a class="brand" href="#top" aria-label="JoJo's Bizarre Gallery ana sayfa">JOJO</a>
+    <div class="nav-actions">
+      <a href="#gallery">Standlar</a>
+      <button id="theme" type="button" aria-pressed="false">Mürekkep: Açık</button>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="ht" aria-hidden="true"></div>
+    <div class="sfx a" aria-hidden="true">ゴゴゴゴ</div>
+    <div class="sfx b v" aria-hidden="true">ドドドド</div>
+    <div class="hero-cover-frame">
+      <div class="hero-cover">
+        <picture>
+          <source srcset="images/hero-cover.webp" type="image/webp">
+          <img src="images/hero-cover.png" alt="JoJo manga kapağı" width="1800" height="1800" decoding="async" fetchpriority="high">
+        </picture>
+      </div>
+    </div>
+    <h1 class="hero-title" aria-label="JoJo's Bizarre Gallery"><span>JOJO'S BIZARRE</span><span>GALLERY</span></h1>
+    <div class="chapter-ribbon">CHAPTER 0: THE BEGINNING</div>
+    <a class="cue" href="#gallery">TO BE CONTINUED... <span aria-hidden="true">➜</span></a>
+  </header>
+
+  <main id="gallery" class="gallery" aria-labelledby="gallery-title">
+    <div class="gallery-heading">
+      <div>
+        <span class="cap">STAND DOSYALARI</span>
+        <h2 id="gallery-title">Standlar</h2>
+      </div>
+      <p>Her evrenin kendine ait bir gücü var.</p>
+    </div>
+    <div class="filters" role="group" aria-label="Stand'leri Part'a göre filtrele">
+      <button type="button" class="filter-button is-active" data-filter="all" aria-pressed="true">Tümü</button>
+      <button type="button" class="filter-button" data-filter="4" aria-pressed="false">Part 4</button>
+      <button type="button" class="filter-button" data-filter="6" aria-pressed="false">Part 6</button>
+      <button type="button" class="filter-button" data-filter="7" aria-pressed="false">Part 7</button>
+    </div>
+
+    <section class="spread" id="d4c" data-stand data-part="7" aria-labelledby="title-d4c">
+      <div class="ht" aria-hidden="true"></div><div class="sfx v" aria-hidden="true">ドドドド</div>
+      <div class="sg">
+        <div class="main">
+          <div class="big out" aria-hidden="true">D4C</div>
+          <button class="pn stand-trigger c3" type="button" aria-label="D4C Stand görselini ve ayrıntılarını aç">
+            <span class="pf"><span class="pi"><span class="ph">
+              <picture><source srcset="images/d4cicon.webp" type="image/webp"><img src="images/d4cicon.jpg" alt="D4C Stand'i — Steel Ball Run" width="1000" height="1200" loading="lazy" decoding="async"></picture>
+              <small class="img-fallback">images/d4cicon.jpg</small>
+            </span></span></span>
+          </button>
+          <div class="vert" aria-hidden="true">ディー・フォー・シー</div>
+        </div>
+        <div class="copy">
+          <span class="cap">Part 7: Steel Ball Run</span>
+          <h2 id="title-d4c">Dirty Deeds Done Dirt Cheap</h2>
+          <p>Funny Valentine'ı paralel dünyalar arasında taşıyan; komşu evrenlerdeki insanları ve nesneleri kendi dünyasına getirebilen bir Stand.</p>
+          <p class="user"><span>Kullanıcı</span> Funny Valentine</p>
+          <ul class="tg"><li>Paralel evrenler</li><li>Boyutlar arası geçiş</li><li>Alternatif benlikler</li></ul>
+          <div class="stat-layout">
+            <svg class="radar" viewBox="0 0 160 160" role="img" aria-labelledby="radar-title-d4c radar-desc-d4c">
+              <title id="radar-title-d4c">D4C parametre grafiği</title><desc id="radar-desc-d4c">Stand parametrelerinin altıgen grafiği.</desc>
+              <polygon class="radar-grid" points="80,20 132,50 132,110 80,140 28,110 28,50"></polygon>
+              <polygon class="radar-grid inner" points="80,40 115,60 115,100 80,120 45,100 45,60"></polygon>
+              <polygon class="radar-value" points="80,80 80,80 80,80 80,80 80,80 80,80"></polygon>
+            </svg>
+            <ul class="stats" role="list" aria-label="D4C Stand parametreleri">
+              <li class="bd" data-r="A" aria-label="Güç: A"><b aria-hidden="true">A</b><span aria-hidden="true">Güç</span></li>
+              <li class="bd" data-r="A" aria-label="Hız: A"><b aria-hidden="true">A</b><span aria-hidden="true">Hız</span></li>
+              <li class="bd" data-r="C" aria-label="Menzil: C"><b aria-hidden="true">C</b><span aria-hidden="true">Menzil</span></li>
+              <li class="bd" data-r="A" aria-label="Dayanıklılık: A"><b aria-hidden="true">A</b><span aria-hidden="true">Dayanıklılık</span></li>
+              <li class="bd" data-r="A" aria-label="Hassasiyet: A"><b aria-hidden="true">A</b><span aria-hidden="true">Hassasiyet</span></li>
+              <li class="bd" data-r="A" aria-label="Potansiyel: A"><b aria-hidden="true">A</b><span aria-hidden="true">Potansiyel</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="spread flip" id="killer-queen" data-stand data-part="4" aria-labelledby="title-killer-queen">
+      <div class="ht" aria-hidden="true"></div><div class="sfx" aria-hidden="true">ゴゴゴゴ</div>
+      <div class="sg">
+        <div class="main">
+          <div class="big out" aria-hidden="true">KILLER QUEEN</div>
+          <button class="pn stand-trigger c4" type="button" aria-label="Killer Queen Stand görselini ve ayrıntılarını aç">
+            <span class="pf"><span class="pi"><span class="ph">
+              <picture><source srcset="images/killerqueen.webp" type="image/webp"><img src="images/killerqueen.jpg" alt="Killer Queen Stand'i — Diamond Is Unbreakable" width="1000" height="1200" loading="lazy" decoding="async"></picture>
+              <small class="img-fallback">images/killerqueen.jpg</small>
+            </span></span></span>
+          </button>
+          <div class="vert" aria-hidden="true">吉良吉影</div>
+        </div>
+        <div class="copy">
+          <span class="cap">Part 4: Diamond Is Unbreakable</span>
+          <h2 id="title-killer-queen">Killer Queen</h2>
+          <p>Dokunduğu nesneleri bombaya dönüştürür. Sheer Heart Attack ve Bites the Dust yetenekleriyle yıkıcı gücünü farklı biçimlerde kullanır.</p>
+          <p class="user"><span>Kullanıcı</span> Yoshikage Kira</p>
+          <ul class="tg"><li>İlk Bomba</li><li>Sheer Heart Attack</li><li>Bites the Dust</li></ul>
+          <div class="stat-layout">
+            <svg class="radar" viewBox="0 0 160 160" role="img" aria-labelledby="radar-title-kq radar-desc-kq">
+              <title id="radar-title-kq">Killer Queen parametre grafiği</title><desc id="radar-desc-kq">Stand parametrelerinin altıgen grafiği.</desc>
+              <polygon class="radar-grid" points="80,20 132,50 132,110 80,140 28,110 28,50"></polygon><polygon class="radar-grid inner" points="80,40 115,60 115,100 80,120 45,100 45,60"></polygon><polygon class="radar-value" points="80,80 80,80 80,80 80,80 80,80 80,80"></polygon>
+            </svg>
+            <ul class="stats" role="list" aria-label="Killer Queen Stand parametreleri">
+              <li class="bd" data-r="A" aria-label="Güç: A"><b aria-hidden="true">A</b><span aria-hidden="true">Güç</span></li><li class="bd" data-r="B" aria-label="Hız: B"><b aria-hidden="true">B</b><span aria-hidden="true">Hız</span></li><li class="bd" data-r="D" aria-label="Menzil: D"><b aria-hidden="true">D</b><span aria-hidden="true">Menzil</span></li><li class="bd" data-r="B" aria-label="Dayanıklılık: B"><b aria-hidden="true">B</b><span aria-hidden="true">Dayanıklılık</span></li><li class="bd" data-r="B" aria-label="Hassasiyet: B"><b aria-hidden="true">B</b><span aria-hidden="true">Hassasiyet</span></li><li class="bd" data-r="A" aria-label="Potansiyel: A"><b aria-hidden="true">A</b><span aria-hidden="true">Potansiyel</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="spread" id="scary-monsters" data-stand data-part="7" aria-labelledby="title-scary-monsters">
+      <div class="ht" aria-hidden="true"></div><div class="sfx v" aria-hidden="true">ドドドド</div>
+      <div class="sg">
+        <div class="main">
+          <div class="big out" aria-hidden="true">SCARY MONSTERS</div>
+          <button class="pn stand-trigger c5" type="button" aria-label="Scary Monsters Stand görselini ve ayrıntılarını aç">
+            <span class="pf"><span class="pi"><span class="ph">
+              <picture><source srcset="images/scary-monster.webp" type="image/webp"><img src="images/scary-monster.jpg" alt="Scary Monsters Stand'i — Steel Ball Run" width="1000" height="1200" loading="lazy" decoding="async"></picture>
+              <small class="img-fallback">images/scary-monster.jpg</small>
+            </span></span></span>
+          </button>
+          <div class="vert" aria-hidden="true">スケアリー・モンスターズ</div>
+        </div>
+        <div class="copy">
+          <span class="cap">Part 7: Steel Ball Run</span>
+          <h2 id="title-scary-monsters">Scary Monsters</h2>
+          <p>Kullanıcısını ve dokunduğu canlıları dinozorlara dönüştürebilen, bulaşıcı bir dönüşüm yeteneğine sahip Stand.</p>
+          <p class="user"><span>Kullanıcı</span> Diego Brando</p>
+          <ul class="tg"><li>Dinozor dönüşümü</li><li>Bulaşıcı enfeksiyon</li><li>Gelişmiş duyular</li></ul>
+          <div class="stat-layout">
+            <svg class="radar" viewBox="0 0 160 160" role="img" aria-labelledby="radar-title-sm radar-desc-sm">
+              <title id="radar-title-sm">Scary Monsters parametre grafiği</title><desc id="radar-desc-sm">Stand parametrelerinin altıgen grafiği.</desc>
+              <polygon class="radar-grid" points="80,20 132,50 132,110 80,140 28,110 28,50"></polygon><polygon class="radar-grid inner" points="80,40 115,60 115,100 80,120 45,100 45,60"></polygon><polygon class="radar-value" points="80,80 80,80 80,80 80,80 80,80 80,80"></polygon>
+            </svg>
+            <ul class="stats" role="list" aria-label="Scary Monsters Stand parametreleri">
+              <li class="bd" data-r="B" aria-label="Güç: B"><b aria-hidden="true">B</b><span aria-hidden="true">Güç</span></li><li class="bd" data-r="B" aria-label="Hız: B"><b aria-hidden="true">B</b><span aria-hidden="true">Hız</span></li><li class="bd" data-r="D" aria-label="Menzil: D"><b aria-hidden="true">D</b><span aria-hidden="true">Menzil</span></li><li class="bd" data-r="A" aria-label="Dayanıklılık: A"><b aria-hidden="true">A</b><span aria-hidden="true">Dayanıklılık</span></li><li class="bd" data-r="C" aria-label="Hassasiyet: C"><b aria-hidden="true">C</b><span aria-hidden="true">Hassasiyet</span></li><li class="bd" data-r="B" aria-label="Potansiyel: B"><b aria-hidden="true">B</b><span aria-hidden="true">Potansiyel</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="spread flip" id="whitesnake" data-stand data-part="6" aria-labelledby="title-whitesnake">
+      <div class="ht" aria-hidden="true"></div><div class="sfx" aria-hidden="true">ゴゴゴゴ</div>
+      <div class="sg">
+        <div class="main">
+          <div class="big out" aria-hidden="true">WHITESNAKE</div>
+          <button class="pn stand-trigger c2" type="button" aria-label="Whitesnake Stand görselini ve ayrıntılarını aç">
+            <span class="pf"><span class="pi"><span class="ph">
+              <picture><source srcset="images/whitesnake.webp" type="image/webp"><img src="images/whitesnake.jpg" alt="Whitesnake Stand'i — Stone Ocean" width="1000" height="1200" loading="lazy" decoding="async"></picture>
+              <small class="img-fallback">images/whitesnake.jpg</small>
+            </span></span></span>
+          </button>
+          <div class="vert" aria-hidden="true">ホワイトスネイク</div>
+        </div>
+        <div class="copy">
+          <span class="cap">Part 6: Stone Ocean</span>
+          <h2 id="title-whitesnake">Whitesnake</h2>
+          <p>İnsanların anılarını ve Stand yeteneklerini DISC'lere dönüştürüp çıkarabilen; yanılsamalar yaratabilen bir Stand.</p>
+          <p class="user"><span>Kullanıcı</span> Enrico Pucci</p>
+          <ul class="tg"><li>DISC çıkarma</li><li>Yanılsama</li><li>Uzun menzil</li></ul>
+          <div class="stat-layout">
+            <svg class="radar" viewBox="0 0 160 160" role="img" aria-labelledby="radar-title-ws radar-desc-ws">
+              <title id="radar-title-ws">Whitesnake parametre grafiği</title><desc id="radar-desc-ws">Stand parametrelerinin altıgen grafiği.</desc>
+              <polygon class="radar-grid" points="80,20 132,50 132,110 80,140 28,110 28,50"></polygon><polygon class="radar-grid inner" points="80,40 115,60 115,100 80,120 45,100 45,60"></polygon><polygon class="radar-value" points="80,80 80,80 80,80 80,80 80,80 80,80"></polygon>
+            </svg>
+            <ul class="stats" role="list" aria-label="Whitesnake Stand parametreleri">
+              <li class="bd" data-r="?" aria-label="Güç: Bilinmiyor"><b aria-hidden="true">?</b><span aria-hidden="true">Güç</span></li><li class="bd" data-r="D" aria-label="Hız: D"><b aria-hidden="true">D</b><span aria-hidden="true">Hız</span></li><li class="bd" data-r="?" aria-label="Menzil: Bilinmiyor"><b aria-hidden="true">?</b><span aria-hidden="true">Menzil</span></li><li class="bd" data-r="A" aria-label="Dayanıklılık: A"><b aria-hidden="true">A</b><span aria-hidden="true">Dayanıklılık</span></li><li class="bd" data-r="?" aria-label="Hassasiyet: Bilinmiyor"><b aria-hidden="true">?</b><span aria-hidden="true">Hassasiyet</span></li><li class="bd" data-r="?" aria-label="Potansiyel: Bilinmiyor"><b aria-hidden="true">?</b><span aria-hidden="true">Potansiyel</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="detail-dialog" id="stand-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-shell">
+      <button class="dialog-close" type="button" aria-label="Ayrıntıları kapat">×</button>
+      <div class="dialog-content"></div>
+    </div>
+  </dialog>
+
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Sayfanın en üstüne çık">Yukarı çık ↑</button>
+
+  <footer class="contact" id="contact">
+    <div class="ht" aria-hidden="true"></div><div class="sfx v" aria-hidden="true">ゴゴゴゴ</div>
+    <div class="contact-content">
+      <span class="cap">SON SÖZ</span>
+      <h2>TO BE CONTINUED...</h2>
+      <nav class="social-links" aria-label="Sosyal bağlantılar">
+        <a href="https://github.com/TODO" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://instagram.com/TODO" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </nav>
+      <p class="fan-note">JoJo's Bizarre Adventure, Hirohiko Araki ve Shueisha'ya aittir. Bu site ticari olmayan bir hayran çalışmasıdır.</p>
+      <p class="credits">Görsel kaynakları: <span>TODO — kaynak bilgilerini buraya ekleyin.</span></p>
+      <p class="fine">© JoJo's Bizarre Gallery · Hayran yapımı, ticari olmayan çalışma.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha384-g4NTh/Iv5PPU4xPyhEWqPcwtNXOvdaDI8LLnyYfyNZOjKJeYQyjzQ9X5275eBjpt" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha384-Z3REaz79l2IaAZqJsSABtTbhjgOUYyV3p90XNnAPCSHg3EMTz1fouunq9WZRtj3d" crossorigin="anonymous"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
